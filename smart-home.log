@@ -1,0 +1,144 @@
+2026-10-21 10:36:51 WARN  c.b.s.controller.HomeController - Device is offline: LIGHT_03
+2026-10-21 10:36:51 ERROR c.b.s.controller.HomeController - Error processing command for device LIGHT_03: LIGHT_03 TURN_ON
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device is offline: LIGHT_03
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:92)
+	at com.bootcamp.smarthome.Main.main(Main.java:76)
+2026-10-21 10:36:51 ERROR c.b.smarthome.device.SmartLock - Security alert: invalid PIN attempt for lock LOCK_02
+2026-10-21 10:36:51 ERROR c.b.s.controller.HomeController - Error processing command for device LOCK_02: LOCK_02 UNLOCK
+com.bootcamp.smarthome.exception.InvalidCommandException: Invalid PIN
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:37)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:51)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:96)
+	at com.bootcamp.smarthome.Main.main(Main.java:94)
+2026-10-21 10:37:41 WARN  c.b.s.controller.HomeController - Device is offline: LIGHT_03
+2026-10-21 10:37:41 ERROR c.b.s.controller.HomeController - Error processing command for device LIGHT_03: LIGHT_03 TURN_ON
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device is offline: LIGHT_03
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:92)
+	at com.bootcamp.smarthome.Main.main(Main.java:76)
+2026-10-21 10:37:41 ERROR c.b.smarthome.device.SmartLock - Security alert: invalid PIN attempt for lock LOCK_02
+2026-10-21 10:37:41 ERROR c.b.s.controller.HomeController - Error processing command for device LOCK_02: LOCK_02 UNLOCK
+com.bootcamp.smarthome.exception.InvalidCommandException: Invalid PIN
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:37)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:51)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:96)
+	at com.bootcamp.smarthome.Main.main(Main.java:94)
+2026-10-21 10:39:03 WARN  c.b.s.controller.HomeController - Device is offline: LIGHT_03
+2026-10-21 10:39:03 ERROR c.b.s.controller.HomeController - Error processing command for device LIGHT_03: LIGHT_03 TURN_ON
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device is offline: LIGHT_03
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:92)
+	at com.bootcamp.smarthome.Main.main(Main.java:76)
+2026-10-21 10:39:03 ERROR c.b.smarthome.device.SmartLock - Security alert: invalid PIN attempt for lock LOCK_02
+2026-10-21 10:39:03 ERROR c.b.s.controller.HomeController - Error processing command for device LOCK_02: LOCK_02 UNLOCK
+com.bootcamp.smarthome.exception.InvalidCommandException: Invalid PIN
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:37)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:51)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:96)
+	at com.bootcamp.smarthome.Main.main(Main.java:94)
+2026-10-21 10:39:03 WARN  c.b.s.controller.HomeController - Device not found: SENSOR_99
+2026-10-21 10:39:03 ERROR c.b.s.controller.HomeController - Error processing command for device SENSOR_99: SENSOR_99 TURN_ON
+com.bootcamp.smarthome.exception.HomeAutomationException: Device not found: SENSOR_99
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:87)
+	at com.bootcamp.smarthome.Main.main(Main.java:101)
+2026-10-21 10:42:26 DEBUG c.b.s.controller.HomeController - Received command for device LIGHT_01: LIGHT_01 TURN_ON
+2026-10-21 10:44:02 INFO  c.b.s.controller.HomeController - Command executed successfully for device LIGHT_01
+2026-10-21 10:44:02 DEBUG c.b.s.controller.HomeController - Received command for device LIGHT_02: LIGHT_02 TURN_ON
+2026-10-21 10:44:05 INFO  c.b.s.controller.HomeController - Command executed successfully for device LIGHT_02
+2026-10-21 10:44:05 DEBUG c.b.s.controller.HomeController - Received command for device THERMO_01: THERMO_01 SET_TEMP 22.5
+2026-10-21 10:52:47 INFO  c.b.s.controller.HomeController - Command executed successfully for device THERMO_01
+2026-10-21 10:52:47 DEBUG c.b.s.controller.HomeController - Received command for device LIGHT_01: LIGHT_01 SET_BRIGHTNESS 80
+2026-10-21 10:52:47 INFO  c.b.s.controller.HomeController - Command executed successfully for device LIGHT_01
+2026-10-21 10:52:47 DEBUG c.b.s.controller.HomeController - Received command for device LIGHT_03: LIGHT_03 TURN_ON
+2026-10-21 10:52:47 WARN  c.b.s.controller.HomeController - Device is offline: LIGHT_03
+2026-10-21 10:52:47 ERROR c.b.s.controller.HomeController - Error processing command for device LIGHT_03: LIGHT_03 TURN_ON
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device is offline: LIGHT_03
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:92)
+	at com.bootcamp.smarthome.Main.main(Main.java:76)
+2026-10-21 10:52:47 DEBUG c.b.s.controller.HomeController - Received command for device LOCK_02: LOCK_02 UNLOCK
+2026-10-21 10:52:47 INFO  c.b.s.controller.HomeController - Command executed successfully for device LOCK_02
+2026-10-21 10:52:47 ERROR c.b.smarthome.device.SmartLock - Security alert: invalid PIN attempt for lock LOCK_02
+2026-10-21 10:52:47 ERROR c.b.s.controller.HomeController - Error processing command for device LOCK_02: LOCK_02 UNLOCK
+com.bootcamp.smarthome.exception.InvalidCommandException: Invalid PIN
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:37)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:51)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:96)
+	at com.bootcamp.smarthome.Main.main(Main.java:94)
+2026-10-21 10:52:47 DEBUG c.b.s.controller.HomeController - Received command for device SENSOR_99: SENSOR_99 TURN_ON
+2026-10-21 10:52:47 WARN  c.b.s.controller.HomeController - Device not found: SENSOR_99
+2026-10-21 10:52:47 ERROR c.b.s.controller.HomeController - Error processing command for device SENSOR_99: SENSOR_99 TURN_ON
+com.bootcamp.smarthome.exception.HomeAutomationException: Device not found: SENSOR_99
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:87)
+	at com.bootcamp.smarthome.Main.main(Main.java:101)
+2026-10-21 10:52:51 DEBUG c.b.s.controller.HomeController - Received command for device LIGHT_01: LIGHT_01 TURN_ON
+2026-10-21 10:52:51 INFO  c.b.s.controller.HomeController - Command executed successfully for device LIGHT_01
+2026-10-21 10:52:51 DEBUG c.b.s.controller.HomeController - Received command for device LIGHT_02: LIGHT_02 TURN_ON
+2026-10-21 10:52:51 INFO  c.b.s.controller.HomeController - Command executed successfully for device LIGHT_02
+2026-10-21 10:52:51 DEBUG c.b.s.controller.HomeController - Received command for device THERMO_01: THERMO_01 SET_TEMP 22.5
+2026-10-21 10:52:51 INFO  c.b.s.controller.HomeController - Command executed successfully for device THERMO_01
+2026-10-21 10:52:51 DEBUG c.b.s.controller.HomeController - Received command for device LIGHT_01: LIGHT_01 SET_BRIGHTNESS 80
+2026-10-21 10:52:51 INFO  c.b.s.controller.HomeController - Command executed successfully for device LIGHT_01
+2026-10-21 10:52:51 DEBUG c.b.s.controller.HomeController - Received command for device LIGHT_03: LIGHT_03 TURN_ON
+2026-10-21 10:52:51 WARN  c.b.s.controller.HomeController - Device is offline: LIGHT_03
+2026-10-21 10:52:51 ERROR c.b.s.controller.HomeController - Error processing command for device LIGHT_03: LIGHT_03 TURN_ON
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device is offline: LIGHT_03
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:92)
+	at com.bootcamp.smarthome.Main.main(Main.java:76)
+2026-10-21 10:52:51 DEBUG c.b.s.controller.HomeController - Received command for device LOCK_02: LOCK_02 UNLOCK
+2026-10-21 10:52:51 INFO  c.b.s.controller.HomeController - Command executed successfully for device LOCK_02
+2026-10-21 10:52:51 ERROR c.b.smarthome.device.SmartLock - Security alert: invalid PIN attempt for lock LOCK_02
+2026-10-21 10:52:51 ERROR c.b.s.controller.HomeController - Error processing command for device LOCK_02: LOCK_02 UNLOCK
+com.bootcamp.smarthome.exception.InvalidCommandException: Invalid PIN
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:37)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:51)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:96)
+	at com.bootcamp.smarthome.Main.main(Main.java:94)
+2026-10-21 10:52:51 DEBUG c.b.s.controller.HomeController - Received command for device SENSOR_99: SENSOR_99 TURN_ON
+2026-10-21 10:52:51 WARN  c.b.s.controller.HomeController - Device not found: SENSOR_99
+2026-10-21 10:52:51 ERROR c.b.s.controller.HomeController - Error processing command for device SENSOR_99: SENSOR_99 TURN_ON
+com.bootcamp.smarthome.exception.DeviceNotFoundException: Device not found: SENSOR_99
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:87)
+	at com.bootcamp.smarthome.Main.main(Main.java:101)
+2026-10-21 10:56:21 DEBUG c.b.s.controller.HomeController - Received command for device LIGHT_01: LIGHT_01 TURN_ON
+2026-10-21 10:56:21 INFO  c.b.s.controller.HomeController - Command executed successfully for device LIGHT_01
+2026-10-21 10:56:21 DEBUG c.b.s.controller.HomeController - Received command for device LIGHT_02: LIGHT_02 TURN_ON
+2026-10-21 10:56:21 INFO  c.b.s.controller.HomeController - Command executed successfully for device LIGHT_02
+2026-10-21 10:56:21 DEBUG c.b.s.controller.HomeController - Received command for device THERMO_01: THERMO_01 SET_TEMP 22.5
+2026-10-21 10:56:21 INFO  c.b.s.controller.HomeController - Command executed successfully for device THERMO_01
+2026-10-21 10:56:21 DEBUG c.b.s.controller.HomeController - Received command for device LIGHT_01: LIGHT_01 SET_BRIGHTNESS 80
+2026-10-21 10:56:21 INFO  c.b.s.controller.HomeController - Command executed successfully for device LIGHT_01
+2026-10-21 10:56:21 DEBUG c.b.s.controller.HomeController - Received command for device LIGHT_03: LIGHT_03 TURN_ON
+2026-10-21 10:56:21 WARN  c.b.s.controller.HomeController - Device is offline: LIGHT_03
+2026-10-21 10:56:21 ERROR c.b.s.controller.HomeController - Error processing command for device LIGHT_03: LIGHT_03 TURN_ON
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device is offline: LIGHT_03
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:92)
+	at com.bootcamp.smarthome.Main.main(Main.java:76)
+2026-10-21 10:56:21 DEBUG c.b.s.controller.HomeController - Received command for device LOCK_02: LOCK_02 UNLOCK
+2026-10-21 10:56:21 ERROR c.b.smarthome.device.SmartLock - Security alert: invalid PIN attempt for lock LOCK_02
+2026-10-21 10:56:21 ERROR c.b.s.controller.HomeController - Error processing command for device LOCK_02: LOCK_02 UNLOCK
+com.bootcamp.smarthome.exception.InvalidCommandException: Invalid PIN
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:37)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:51)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:95)
+	at com.bootcamp.smarthome.Main.main(Main.java:94)
+2026-10-21 10:56:21 DEBUG c.b.s.controller.HomeController - Received command for device SENSOR_99: SENSOR_99 TURN_ON
+2026-10-21 10:56:21 WARN  c.b.s.controller.HomeController - Device not found: SENSOR_99
+2026-10-21 10:56:21 ERROR c.b.s.controller.HomeController - Error processing command for device SENSOR_99: SENSOR_99 TURN_ON
+com.bootcamp.smarthome.exception.DeviceNotFoundException: Device not found: SENSOR_99
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:87)
+	at com.bootcamp.smarthome.Main.main(Main.java:101)
+2026-10-21 10:57:10 WARN  c.b.s.controller.HomeController - Device is offline: LIGHT_03
+2026-10-21 10:57:10 ERROR c.b.s.controller.HomeController - Error processing command for device LIGHT_03: LIGHT_03 TURN_ON
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device is offline: LIGHT_03
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:92)
+	at com.bootcamp.smarthome.Main.main(Main.java:76)
+2026-10-21 10:57:10 ERROR c.b.smarthome.device.SmartLock - Security alert: invalid PIN attempt for lock LOCK_02
+2026-10-21 10:57:10 ERROR c.b.s.controller.HomeController - Error processing command for device LOCK_02: LOCK_02 UNLOCK
+com.bootcamp.smarthome.exception.InvalidCommandException: Invalid PIN
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:37)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:51)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:95)
+	at com.bootcamp.smarthome.Main.main(Main.java:94)
+2026-10-21 10:57:10 WARN  c.b.s.controller.HomeController - Device not found: SENSOR_99
+2026-10-21 10:57:10 ERROR c.b.s.controller.HomeController - Error processing command for device SENSOR_99: SENSOR_99 TURN_ON
+com.bootcamp.smarthome.exception.DeviceNotFoundException: Device not found: SENSOR_99
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:87)
+	at com.bootcamp.smarthome.Main.main(Main.java:101)
